@@ -3,7 +3,7 @@
 function onMove(PlayerMoveEvent $event){
 if($this->isInside($event->getPlayer()->getPosition(), $pos1, $pos2)){
 $event->getPlayer()->teleport($event->getFrom());
-// Send message if you want to inform players why they're knocked back 
+// Send message if you want to inform players why they're knocked back
 }
 }
 
