@@ -3,5 +3,5 @@ branches:
 - master
 projects:
   InvisibleBarrier:
-    path: "IceCruelStuff/InvisibleBarrier"
+    path: "IceCruelStuff/InvisibleBarrier/src"
 ...
