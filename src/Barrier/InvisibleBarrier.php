@@ -8,5 +8,5 @@ $event->getPlayer()->teleport($event->getFrom());
 }
 
 function isInside(Position $pp, Position $p1, Position $p2){
-return ($pp->getX() >= $p1->getX() && $pp->getX() <= $p2->getX() && $pp->getY() >= $p2->getY() && $pp->getY() <= $p1->getY() && $pp->getZ() >= $p1->getZ() && $pp->getZ() <= $p2->getZ() && $pp->getLevel()->getName() === $p1->getLevel()->getName(), $pp->getLevel()->getName() === $p2->getLevel()->getName());
+return ($pp->getX() >= $p1->getX() && $pp->getX() <= $p2->getX() && $pp->getY() >= $p2->getY() && $pp->getY() <= $p1->getY() && $pp->getZ() >= $p1->getZ() && $pp->getZ() <= $p2->getZ() && $pp->getLevel()->getName() === $p1->getLevel()->getName() $pp->getLevel()->getName() === $p2->getLevel()->getName());
 }
